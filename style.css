@@ -66,17 +66,4 @@ body {
 	padding: 0.5rem;
 	text-align: center;
 	transform: rotate(90deg);
-
-	transform-origin:bottom left;
-
-	position:absolute;
-	top:-100vw;
-
-	height:100vw;
-	width:100vh;
-
-	/* background-color:#000; */
-	/* color:#fff; */
-
-	overflow:auto;
 }
