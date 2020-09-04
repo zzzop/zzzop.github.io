@@ -22,13 +22,13 @@ let countDown = new Date("Dec 25, 2020 21:00:00").getTime(),
     //let distance = now;
 
     (document.getElementById("hours1").innerText = Math.floor(
-      (now % day) / hour + 8
+      new Date().getHours()
     )),
       (document.getElementById("minutes1").innerText = Math.floor(
-        (now % hour) / minute
+        new Date().getMinutes()
       )),
       (document.getElementById("seconds1").innerText = Math.floor(
-        (now % minute) / second
+        new Date().getSeconds()
       ));
 
     //do something later when date is reached
